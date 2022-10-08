@@ -1,3 +1,11 @@
 body{
-    background: yellow;
+    background: #016801;
+}
+
+.card{
+    display: inline-block;
+    background: white;
+    margin: auto;
+    height: 300px;
+    width: 200px;
 }
