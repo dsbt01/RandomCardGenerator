@@ -24,8 +24,43 @@ body{
     position: relative;
 }
 
-.card::before{
+.card.spade::before{
     content: '\2660';
+}
+
+.card.spade::after{
+    content: '\2660';
+}
+
+.card.club::before{
+    content: '\2663';
+}
+
+.card.club::after{
+    content: '\2663';
+}
+
+.card.heart::before{
+    content: '\2665';
+    color: red;
+}
+
+.card.heart::after{
+    content: '\2665';
+    color: red;
+}
+
+.card.diamond::before{
+    content: '\2666';
+    color: red;
+}
+
+.card.diamond::after{
+    content: '\2666';
+    color: red;
+}
+
+.card::before{
     position: absolute;
     top: 1px;
     font-size: 85px;
@@ -33,9 +68,9 @@ body{
 }
 
 .card::after{
-    content: '\2660';
     position: absolute;
     bottom: 1px;
     right: 16px;
     font-size: 85px;
 }
+
