@@ -1,5 +1,5 @@
 body{
-    background: #016801;
+    background: #119b11;
     box-sizing: border-box;
 }
 
@@ -10,7 +10,6 @@ body{
 }
 
 .card{
-    display: inline-block;
     text-align: center;
     background: white;
     margin: auto;
