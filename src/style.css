@@ -1,75 +1,74 @@
-body{
-    background: #119b11;
-    box-sizing: border-box;
+body {
+  background: #119b11;
+  box-sizing: border-box;
 }
 
-.number{
-    position: absolute;
-    top: 120px;
-    left: 80px;
+.number {
+  position: absolute;
+  top: 120px;
+  left: 80px;
 }
 
-.card{
-    text-align: center;
-    background: white;
-    margin: auto;
-    height: 300px;
-    padding-top: 100px;
-    width: 200px;
-    font-size: 85px;
-    padding: 15px;
-    border: 1px solid black;
-    border-radius: 10px;
-    position: relative;
+.card {
+  text-align: center;
+  background: white;
+  margin: auto;
+  height: 300px;
+  padding-top: 100px;
+  width: 200px;
+  font-size: 85px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
 }
 
-.card.spade::before{
-    content: '\2660';
+.card.spade::before {
+  content: "\2660";
 }
 
-.card.spade::after{
-    content: '\2660';
+.card.spade::after {
+  content: "\2660";
 }
 
-.card.club::before{
-    content: '\2663';
+.card.club::before {
+  content: "\2663";
 }
 
-.card.club::after{
-    content: '\2663';
+.card.club::after {
+  content: "\2663";
 }
 
-.card.heart::before{
-    content: '\2665';
-    color: red;
+.card.heart::before {
+  content: "\2665";
+  color: red;
 }
 
-.card.heart::after{
-    content: '\2665';
-    color: red;
+.card.heart::after {
+  content: "\2665";
+  color: red;
 }
 
-.card.diamond::before{
-    content: '\2666';
-    color: red;
+.card.diamond::before {
+  content: "\2666";
+  color: red;
 }
 
-.card.diamond::after{
-    content: '\2666';
-    color: red;
+.card.diamond::after {
+  content: "\2666";
+  color: red;
 }
 
-.card::before{
-    position: absolute;
-    top: 1px;
-    font-size: 85px;
-    left: 12px;
+.card::before {
+  position: absolute;
+  top: 1px;
+  font-size: 85px;
+  left: 12px;
 }
 
-.card::after{
-    position: absolute;
-    bottom: 1px;
-    right: 16px;
-    font-size: 85px;
+.card::after {
+  position: absolute;
+  bottom: 1px;
+  right: 16px;
+  font-size: 85px;
 }
-
